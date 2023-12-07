@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import {
   Box,
   FooterContainer,
@@ -34,9 +35,9 @@ const Footer = () => {
                       <FooterLink href="#">
                           Asesorias
                       </FooterLink>
-                      <FooterLink href="/Reclamo">
+                      <Nav.Link to="/Reclamo">
                           Reclamos
-                      </FooterLink>
+                      </Nav.Link>
                   </Column>
                   <Column>
                       <Heading>Contactanos</Heading>
