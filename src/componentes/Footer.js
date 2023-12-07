@@ -36,7 +36,7 @@ const Footer = () => {
                       <FooterLink href="#">
                           Asesorias
                       </FooterLink>
-                      <Nav.Link to="/Reclamo">
+                      <Nav.Link to="/Reclamo" as ={NavLink}>
                           Reclamos
                       </Nav.Link>
                   </Column>
