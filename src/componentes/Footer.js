@@ -35,7 +35,7 @@ const Footer = () => {
                       <FooterLink href="#">
                           Asesorias
                       </FooterLink>
-                      <Nav.Link to="/Reclamo">
+                      <Nav.Link to="/paginas/Reclamo">
                           Reclamos
                       </Nav.Link>
                   </Column>
@@ -75,7 +75,7 @@ const Footer = () => {
           >
               Tienda RoJoPe 2023-2
           </p>
-          <FooterLink href="/Terminos">
+          <FooterLink href="/paginas/Terminos">
               <i className="fab fa-twitter">
                   <span
                       style={{
