@@ -1,6 +1,4 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
-import { Nav } from "react-bootstrap";
 import {
   Box,
   FooterContainer,
@@ -36,9 +34,9 @@ const Footer = () => {
                       <FooterLink href="#">
                           Asesorias
                       </FooterLink>
-                      <Nav.Link to="/Reclamo" as ={NavLink }>
+                      <FoorerLink href="/Reclamo">
                           Reclamos
-                      </Nav.Link>
+                      </FooterLink>
                   </Column>
                   <Column>
                       <Heading>Contactanos</Heading>
